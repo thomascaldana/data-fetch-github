@@ -19,7 +19,6 @@ import { BsSearch } from 'react-icons/bs'
 let searchTimeout;
 
 const gitHubToken = import.meta.env.VITE_REACT_APP_GITHUBAPI_SECRET;
-console.log("gitHubToken:", gitHubToken);
 
 
 const Search = () => {
